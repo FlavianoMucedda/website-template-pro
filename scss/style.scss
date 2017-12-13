@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+  background-color: $colorwhite;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+footer{
+  .container-fluid{
+    background-color: $colorlightdark;
+    img {
+      height: 30px;
+      width: auto;
+    }
+    .logo {
+      color: $textgrey;
+      font-size: $footertext;
+      line-height: 2em;
+    }
+    .posts {
+      h5 {
+        color: $textwhite;
+        font-size: $footertext;
+      }
+      p {
+        color: $textgrey;
+        font-size: $footertext;
+      }
+      hr {
+        border: 0.5px solid $textgrey;
+        margin-top:5px;
+        margin-bottom:5px;
+      }
+    }
+    .links {
+      color: $textgrey;
+      font-size: $footertext;
+      line-height: 1.5em;
+    }
+    .details {
+        h5 {
+          color: $textwhite;
+          font-size: $footertext;
+
+                }
+        p {
+          color: $textgrey;
+          font-size: $footertext;
+
+        }
+    }
+    .subfooter {
+      background-color: $colordark;
+      color: $textgrey;
+      font-size: $footertext;
+      i{
+        font-size: 14px;
+      }
+    }
+    .text-uppercase {
+      color: $colorwhite;
+      font-size: $footertext;
+    }
+  }
+}

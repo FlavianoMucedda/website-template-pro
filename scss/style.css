@@ -1,0 +1,47 @@
+/* Background colors */
+/* Text Colors */
+/* Text Size */
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif; }
+
+footer .container-fluid {
+  background-color: #1a1e1f; }
+  footer .container-fluid img {
+    height: 30px;
+    width: auto; }
+  footer .container-fluid .logo {
+    color: #6e6e6e;
+    font-size: 11px;
+    line-height: 2em; }
+  footer .container-fluid .posts h5 {
+    color: #fff;
+    font-size: 11px; }
+  footer .container-fluid .posts p {
+    color: #6e6e6e;
+    font-size: 11px; }
+  footer .container-fluid .posts hr {
+    border: 0.5px solid #6e6e6e;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  footer .container-fluid .links {
+    color: #6e6e6e;
+    font-size: 11px;
+    line-height: 1.5em; }
+  footer .container-fluid .details h5 {
+    color: #fff;
+    font-size: 11px; }
+  footer .container-fluid .details p {
+    color: #6e6e6e;
+    font-size: 11px; }
+  footer .container-fluid .subfooter {
+    background-color: #121516;
+    color: #6e6e6e;
+    font-size: 11px; }
+    footer .container-fluid .subfooter i {
+      font-size: 14px; }
+  footer .container-fluid .text-uppercase {
+    color: #fff;
+    font-size: 11px; }
+
+/*# sourceMappingURL=style.css.map */
