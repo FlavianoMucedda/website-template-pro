@@ -5,6 +5,25 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif; }
 
+section .brand {
+  background-color: #465bfe; }
+  section .brand img {
+    width: 55%;
+    height: auto; }
+section .twitbox i {
+  font-size: 2.4em; }
+section .twitbox p {
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 1.4px; }
+section .twitbox .signature {
+  font-weight: 900;
+  color: #000000; }
+section .twitbox h6 {
+  color: rgba(110, 110, 110, 0.5);
+  font-size: 11px; }
+
 footer .container-fluid {
   background-color: #1a1e1f; }
   footer .container-fluid img {
