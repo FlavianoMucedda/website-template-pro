@@ -20,19 +20,74 @@ section {
       }
       p {
         color: $textgrey;
-        font-size: $regulartext;
+        font-size: $text14;
         line-height: 1em;
         letter-spacing: 1.4px;
       }
-      .signature{
+      .signature {
         font-weight: 900;
         color: $colorsoliddark;
       }
       h6 {
         color: $textlightgrey;
-        font-size: $footertext;
+        font-size: $text11;
       }
     }
+      .blogpost {
+        background-color: $colorfadedgrey;
+        }
+        h5 {
+          color: $textgrey;
+          font-size: $text17;
+
+        }
+        h2 {
+          font-weight: $bold;
+          letter-spacing: 2px;
+        }
+        .thumb {
+          width: 300px;
+          height: 350px;
+          overflow: hidden;
+          background-position: center;
+          background-size: cover;
+          margin-left: 10px;
+          margin-right: 10px;
+          border-radius: 5px;
+        }
+        .pic1 {
+          @extend .thumb;
+          background-image: linear-gradient(to top , rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)), url('../images/pic1.jpg');
+        }
+        .pic2 {
+          @extend .thumb;
+          background-image: url('../images/pic2.jpg');
+        }
+
+        .pic3 {
+          @extend .thumb;
+          background-image: url('../images/pic3.jpg');
+        }
+        .fill {
+          color: $colorgrey;
+          margin-top: 3.2em;
+          font-size: $text12;
+          margin-bottom: 15.5em;
+        }
+        h6 {
+          color: $colorgrey;
+          padding-left: 20px;
+          line-height: 0.9em;
+
+        }
+        i, span {
+          @extend h6;
+        }
+        span {
+          padding-left: 0;
+          font-size: $text13;
+          letter-spacing: 2px;
+        }
 }
 
 footer{
@@ -44,17 +99,17 @@ footer{
     }
     .logo {
       color: $textgrey;
-      font-size: $footertext;
+      font-size: $text11;
       line-height: 2em;
     }
     .posts {
       h5 {
         color: $textwhite;
-        font-size: $footertext;
+        font-size: $text11;
       }
       p {
         color: $textgrey;
-        font-size: $footertext;
+        font-size: $text11;
       }
       hr {
         border: 0.5px solid $textgrey;
@@ -64,32 +119,32 @@ footer{
     }
     .links {
       color: $textgrey;
-      font-size: $footertext;
+      font-size: $text11;
       line-height: 1.5em;
     }
     .details {
         h5 {
           color: $textwhite;
-          font-size: $footertext;
+          font-size: $text11;
 
                 }
         p {
           color: $textgrey;
-          font-size: $footertext;
+          font-size: $text11;
 
         }
     }
     .subfooter {
       background-color: $colordark;
       color: $textgrey;
-      font-size: $footertext;
+      font-size: $text11;
       i{
         font-size: 14px;
       }
     }
     .text-uppercase {
       color: $colorwhite;
-      font-size: $footertext;
+      font-size: $text11;
     }
   }
 }
