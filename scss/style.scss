@@ -61,12 +61,12 @@ section {
         }
         .pic2 {
           @extend .thumb;
-          background-image: url('../images/pic2.jpg');
+          background-image: linear-gradient(to top , rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)), url('../images/pic2.jpg');
         }
 
         .pic3 {
           @extend .thumb;
-          background-image: url('../images/pic3.jpg');
+          background-image: linear-gradient(to top , rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)), url('../images/pic3.jpg');
         }
         .fill {
           color: $colorgrey;
@@ -80,7 +80,7 @@ section {
           line-height: 0.9em;
 
         }
-        i, span {
+        .user, span {
           @extend h6;
         }
         span {
@@ -88,6 +88,47 @@ section {
           font-size: $text13;
           letter-spacing: 2px;
         }
+      .fact {
+        padding:10vh 0vw;
+        background-image: url('../images/star-sky.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .small-card {
+          color: $textwhite;
+          border: 0.5px rgba(255, 255, 255, 0.2) solid ;
+          border-radius: 5px;
+        }
+        i {
+          font-size: 2.5em;
+        }
+        .number-card {
+          font-weight: $bold;
+          font-size: 2em;
+        }
+        .text-uppercase {
+          font-weight: 200;
+          letter-spacing: 1px;
+        }
+        .title, .maintext, .text-fact {
+          color: $colorfadedgrey;
+          margin-bottom: 0;
+        }
+        .title {
+          font-size: 1.4em;
+        }
+        .maintext {
+          font-size: 2.4em;
+          font-weight: $bold;
+          letter-spacing: 2px;
+          line-height: 40px;
+        }
+        .text-fact {
+          font-size: 0.9em;
+          letter-spacing: 1px;
+        }
+      }
 }
 
 footer{
