@@ -129,6 +129,45 @@ section {
           letter-spacing: 1px;
         }
       }
+      .ipad {
+        .btn {
+          font-size: 0.7em;
+          letter-spacing: 1px;
+          width: 150px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+      .triple {
+        .mountain{
+          background-image: linear-gradient(to top , rgba(110, 110, 110,0.8), rgba(110, 110, 110,0.8)), url('../images/mountain.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .txt {
+          padding: 5em;
+        }
+        .titlebox {
+          font-weight: 900;
+          color: $textwhite;
+          font-size: 1.2em;
+        }
+        p {
+          font-size: 0.85em;
+          color: $textwhite;
+          line-height: 1.8em;
+        }
+        .btn {
+          font-size: 0.7em;
+          letter-spacing: 1px;
+          width: 120px;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          margin-top: 50px;
+          margin-bottom: 15px;
+        }
+      }
 }
 
 footer{
