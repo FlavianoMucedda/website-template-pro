@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .topnav {
   display: flex;
   height: 40px;
@@ -366,5 +367,11 @@ body {
     font-weight: 400;
     color: #777;
     font-size: 18px; }
+=======
+body {
+  background-color: White; }
+  body a {
+    text-align: center; }
+>>>>>>> master
 
 /*# sourceMappingURL=style.css.map */
